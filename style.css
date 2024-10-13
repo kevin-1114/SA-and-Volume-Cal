@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+h1 {
+    margin: 1.2rem;
+    color: rgb(46, 27, 27);
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+h1:hover {
+    color: rgb(134, 55, 55);
+    transition: 1s;
+}
+
+input {
+    margin: 0.1rem;
+    padding: 0.3rem;
+    border: 0.2rem solid orange;
+    border-radius: 0.4rem;
+    text-transform: uppercase;
+    font-size: large;
+    transition: 0.15s;
+}
+
+input:hover {
+    box-shadow: 0.2rem 0.2rem grey;
+    transition: 0.15s;
+}
+
+label {
+    font-size: x-large;
+    margin: 0.3rem;
+    transition: 1s;
+}
+
+label:hover {
+    color: rgb(134, 55, 55);
+    transition: 1s;
+}
+
+select {
+    margin: 0.1rem;
+    padding: 0.3rem;
+    font-size: larger;
+    border: solid orange 0.2rem;
+    border-radius: 0.2rem;
+    transition: 0.15s;
+}
+
+select:hover {
+    box-shadow: 0.2rem 0.2rem grey;
+    transition: 0.15s;
+}
+
+button {
+    margin: 0.3rem;
+    padding: 0.2rem;
+    border: solid orange 0.2rem;
+    border-radius: 0.2rem;
+    font-size: large;
+    width: 3rem;
+    height: 2rem;
+    transition: 0.15s;
+}
+
+#clear {
+    width: 4rem;
+    height: 2rem;
+}
+
+#copy {
+    margin: 0.3rem;
+    padding: 0.1rem;
+    border: solid orange 0.2rem;
+    border-radius: 0.2rem;
+    font-size: large;
+    width: 4rem;
+    height: 2.5rem;
+    transition: 0.15s;
+}
+
+button:hover {
+    box-shadow: 0.2rem 0.2rem grey;
+    padding: 0.1rem;
+    transition: 0.15s;
+}
+
+p {
+    color: red;
+    margin: 0.3rem;
+    padding: 0.2rem;
+    font-size: x-large;
+    transition: 0.15s;
+    display: inline;
+    transition: 0.15s;
+}
+
+p:hover {
+    text-shadow: 1px 1px #FF0000;
+    transition: 0.15s;
+}
